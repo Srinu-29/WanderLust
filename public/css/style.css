@@ -1,0 +1,120 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+.container{
+  min-height: 100vh
+}
+
+.fa-compass {
+  color: red;
+}
+
+.navbar {
+  height: 5rem;
+  background-color: aliceblue;
+}
+
+/* Footer */
+.f-info-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info {
+  height: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(235, 224, 224, 0.932);
+  justify-content: center;
+  align-items: center;
+}
+
+.f-info-social,
+.f-info-links,
+.f-info-brand,
+.f-info-links {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-info-social i {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+
+/* card */
+
+.card-img-top {
+  height: 20rem !important;
+  border-radius: 25px !important;
+}
+
+
+.listingcard {
+  padding: 1rem !important;
+  border: none !important;
+  margin-bottom: 2rem;
+}
+.card-text {
+  padding: 0 !important;
+}
+
+.card-link {
+  text-decoration: none;
+}
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+/* Edit page */
+
+.add-btn {
+  border: none !important;
+  background-color: brown !important;
+}
+
+/* Show page */
+
+.show-img {
+  width: 100%;
+  height: 300px;        /* control height */
+  object-fit: cover;    /* fill nicely without distortion */
+  border-radius: 8px;   /* optional */
+}
+.card{
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.show-btn{
+  background-color: brown !important;
+  border: none !important;
+}
+.show-btn a{
+  text-decoration: none !important;
+  color: white;
+}
+
+.show-title{
+  display: flex;
+  justify-content: center;
+}
+.btns{
+  display: flex;
+  flex-direction: row;
+}
+/* review card */
+
